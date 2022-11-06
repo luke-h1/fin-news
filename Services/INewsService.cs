@@ -1,6 +1,8 @@
+using fin_news.Models;
+
 namespace fin_news.Services;
 
 public interface INewsService
 {
-    void GetFinanceNews();
+    FinanceNews GetFinanceNews();
 }
